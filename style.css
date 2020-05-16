@@ -1,0 +1,30 @@
+
+table, th, td {
+    background: yellow;
+    color: brown;
+    border: 2px solid black;
+    padding: 1px;
+    border-collapse: collapse;
+  }
+#first {
+  color: red;
+}
+.classname {
+  color: green
+}
+
+@media (min-width:600px){
+  body {
+    background-color: DarkGray;
+  }
+}
+@media (max-width:599px){
+  body {
+    background-color: Lightgreen;
+  }
+}
+.row > div {
+  padding: 2px;
+  background-color: teal;
+  border: 2px solid red;
+}
